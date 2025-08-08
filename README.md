@@ -1,6 +1,3 @@
-Thanks for sharing your existing `README.md`. Based on your format and style, here is the **rewritten version** of your README in the same structure and tone, but aligned with your working code and the VS Code terminal execution:
-
----
 
 # Task 2
 
@@ -52,7 +49,3 @@ This Python program implements a simple **image encryption and decryption tool**
 ---
 
 This project was developed during my internship at <b>The Prodigy Infotech</b> as a practical implementation of **image encryption through pixel-level transformation** using Python.
-
----
-
-Would you like me to export this directly as a `README.md` file for you to upload to GitHub?
