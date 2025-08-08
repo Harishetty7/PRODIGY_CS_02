@@ -1,65 +1,58 @@
-🔐 Image Encryption Tool – Step-by-Step Explanation
-✅ Step 1: Start the Program
-When you run the program, it displays a menu:
+Thanks for sharing your existing `README.md`. Based on your format and style, here is the **rewritten version** of your README in the same structure and tone, but aligned with your working code and the VS Code terminal execution:
 
-e to encrypt an image
+---
 
-d to decrypt an image
+# Task 2
 
-q to quit
+<b>Image Encryption Tool</b>
 
-✅ Step 2: Choose an Option
-You type:
+This Python program implements a simple **image encryption and decryption tool** using pixel manipulation techniques. It allows users to encrypt and decrypt image files by applying reversible mathematical operations on the pixel values. The script is built for use in the terminal or Visual Studio Code and is beginner-friendly.
 
-e if you want to encrypt an image
+---
 
-d if you want to decrypt an image
+<b>Features</b>
 
-✅ Step 3: Enter a Key
-You’re asked to enter a key (just a number).
+* <b>Image Encryption:</b> Transforms an image by modifying pixel values based on a user-provided key.
+* <b>Image Decryption:</b> Reverses the encryption to recover the original image using the same key.
+* <b>User Input:</b> Accepts numeric keys and full image file paths.
+* <b>File Saving:</b> Automatically saves encrypted and decrypted images with appropriate filenames.
 
-This number is used like a "password" to lock/unlock the image.
+---
 
-✅ Step 4: Enter the Image Path
-For encryption:
+<b>How It Works</b>
 
-You give the full path of the image you want to encrypt.
+1. <b>Encrypt Image:</b>
+   Multiplies each pixel value by the key, then divides by the key plus one.
+   This distorts the original image, making it unreadable.
 
-For decryption:
+2. <b>Decrypt Image:</b>
+   Multiplies each encrypted pixel by the key plus one, then divides by the key.
+   This restores the original pixel values (approximately, due to integer rounding).
 
-You give the path of the previously encrypted image.
+---
 
-✅ Step 5: What Happens Inside
-The program reads the image pixel-by-pixel.
+<b>Usage</b>
 
-It applies a mathematical operation using the key to modify each pixel.
+<ol>
+  <li><b>Run the Program:</b> Open the folder in Visual Studio Code and run the script via terminal.</li>
+  <li><b>Select Action:</b> Choose 'e' for encryption, 'd' for decryption, or 'q' to quit.</li>
+  <li><b>Encrypt Image:</b></li>
+    <ul>
+      <li>Enter the encryption key (e.g., 45).</li>
+      <li>Provide the full file path of the image to be encrypted (e.g., <code>D:\Cyber Security\Pixel manipulation for image encryption\my_photo.jpg</code>).</li>
+    </ul>
+  <li><b>Decrypt Image:</b></li>
+    <ul>
+      <li>Enter the same decryption key used during encryption.</li>
+      <li>Provide the path to the encrypted image file.</li>
+    </ul>
+  <li><b>View Results:</b> Encrypted image is saved as <code>encrypted_image.png</code>, and decrypted image as <code>decrypted_image.png</code>.</li>
+</ol>
 
-This makes the image unreadable (encrypted).
+---
 
-The result is saved as a new file:
+This project was developed during my internship at <b>The Prodigy Infotech</b> as a practical implementation of **image encryption through pixel-level transformation** using Python.
 
-encrypted_image.png for encryption
+---
 
-decrypted_image.png for decryption
-
-✅ Step 6: Output
-After encryption, you get a message saying:
-
-“Image encrypted successfully”
-
-After decryption, you get:
-
-“Image decrypted successfully”
-
-✅ Step 7: Exit
-You can type q any time to quit the program.
-
-🧠 Summary
-You encrypt an image using a key.
-
-You decrypt it with the same key.
-
-It works using pixel value manipulation.
-
-The process is automatic after you provide the inputs.
-
+Would you like me to export this directly as a `README.md` file for you to upload to GitHub?
